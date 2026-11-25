@@ -10,14 +10,14 @@ on:
 jobs:
   build-simulator:
     name: Build for iOS Simulator & Appetize.io
-    runs-on: macos-13 # Universally supported on all GitHub free accounts
+    runs-on: macos-latest # Standard Apple Silicon runner with immediate capacity on public repos
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Select Xcode Version
-        run: sudo xcode-select -s /Applications/Xcode_15.2.app || sudo xcode-select -s /Applications/Xcode.app
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app || sudo xcode-select -s /Applications/Xcode.app || true
 
       - name: Print Xcode Version
         run: xcodebuild -version
