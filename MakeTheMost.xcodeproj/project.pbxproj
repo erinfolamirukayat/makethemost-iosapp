@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0100012900000100000001 /* MakeTheMostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200012900000100000001 /* MakeTheMostApp.swift */; };
+		AA0100022900000100000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200022900000100000002 /* AppState.swift */; };
+		AA0100032900000100000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200032900000100000003 /* Models.swift */; };
+		AA0100042900000100000004 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200042900000100000004 /* UserAccount.swift */; };
+		AA0100052900000100000005 /* AppGroupStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200052900000100000005 /* AppGroupStorage.swift */; };
+		AA0100062900000100000006 /* NeonAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200062900000100000006 /* NeonAPIClient.swift */; };
+		AA0100072900000100000007 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200072900000100000007 /* ScreenTimeManager.swift */; };
+		AA0100082900000100000008 /* SquatMotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200082900000100000008 /* SquatMotionDetector.swift */; };
+		AA0100092900000100000009 /* AppSwapIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200092900000100000009 /* AppSwapIntent.swift */; };
+		AA0100102900000100000010 /* ShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200102900000100000010 /* ShortcutsProvider.swift */; };
+		AA0100112900000100000011 /* ChallengeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200112900000100000011 /* ChallengeEngine.swift */; };
+		AA0100122900000100000012 /* NkjvScriptureLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200122900000100000012 /* NkjvScriptureLibrary.swift */; };
+		AA0100132900000100000013 /* ProductivityQuoteLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200132900000100000013 /* ProductivityQuoteLibrary.swift */; };
+		AA0100142900000100000014 /* ScheduleEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200142900000100000014 /* ScheduleEvaluator.swift */; };
+		AA0100152900000100000015 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200152900000100000015 /* Theme.swift */; };
+		AA0100162900000100000016 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200162900000100000016 /* DashboardView.swift */; };
+		AA0100172900000100000017 /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200172900000100000017 /* ScheduleCardView.swift */; };
+		AA0100182900000100000018 /* RewardWindowBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200182900000100000018 /* RewardWindowBannerView.swift */; };
+		AA0100192900000100000019 /* ScheduleEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200192900000100000019 /* ScheduleEditView.swift */; };
+		AA0100202900000100000020 /* FamilyActivityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200202900000100000020 /* FamilyActivityPickerView.swift */; };
+		AA0100212900000100000021 /* BreakoutChallengeHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200212900000100000021 /* BreakoutChallengeHostView.swift */; };
+		AA0100222900000100000022 /* SquatsChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200222900000100000022 /* SquatsChallengeView.swift */; };
+		AA0100232900000100000023 /* ScriptureTypingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200232900000100000023 /* ScriptureTypingView.swift */; };
+		AA0100242900000100000024 /* WisdomQuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200242900000100000024 /* WisdomQuotesView.swift */; };
+		AA0100252900000100000025 /* MathChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200252900000100000025 /* MathChallengeView.swift */; };
+		AA0100262900000100000026 /* ChallengeSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200262900000100000026 /* ChallengeSuccessView.swift */; };
+		AA0100272900000100000027 /* AppSwapSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200272900000100000027 /* AppSwapSettingsView.swift */; };
+		AA0100282900000100000028 /* ShortcutsSetupGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200282900000100000028 /* ShortcutsSetupGuideView.swift */; };
+		AA0100292900000100000029 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200292900000100000029 /* AuthView.swift */; };
+		AA0100302900000100000030 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200302900000100000030 /* ProfileView.swift */; };
+		AA0100312900000100000031 /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200312900000100000031 /* OnboardingFlowView.swift */; };
+		AA0100322900000100000032 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200322900000100000032 /* AppGroupConstants.swift */; };
+		AA0100332900000100000033 /* SharedShieldConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200332900000100000033 /* SharedShieldConfig.swift */; };
+
+		/* Monitor Extension */
+		AA0100402900000100000040 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200402900000100000040 /* DeviceActivityMonitorExtension.swift */; };
+		AA0100412900000100000041 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200322900000100000032 /* AppGroupConstants.swift */; };
+		AA0100422900000100000042 /* AppGroupStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200052900000100000005 /* AppGroupStorage.swift */; };
+		AA0100432900000100000043 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200032900000100000003 /* Models.swift */; };
+		AA0100442900000100000044 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200042900000100000004 /* UserAccount.swift */; };
+		AA0100452900000100000045 /* SharedShieldConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200332900000100000033 /* SharedShieldConfig.swift */; };
+
+		/* Shield Configuration Extension */
+		AA0100502900000100000050 /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200502900000100000050 /* ShieldConfigurationExtension.swift */; };
+		AA0100512900000100000051 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200322900000100000032 /* AppGroupConstants.swift */; };
+		AA0100522900000100000052 /* SharedShieldConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200332900000100000033 /* SharedShieldConfig.swift */; };
+		AA0100532900000100000053 /* AppGroupStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200052900000100000005 /* AppGroupStorage.swift */; };
+		AA0100542900000100000054 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200032900000100000003 /* Models.swift */; };
+		AA0100552900000100000055 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200042900000100000004 /* UserAccount.swift */; };
+
+		/* Shield Action Extension */
+		AA0100602900000100000060 /* ShieldActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200602900000100000060 /* ShieldActionExtension.swift */; };
+		AA0100612900000100000061 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200322900000100000032 /* AppGroupConstants.swift */; };
+		AA0100622900000100000062 /* SharedShieldConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200332900000100000033 /* SharedShieldConfig.swift */; };
+		AA0100632900000100000063 /* AppGroupStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200052900000100000005 /* AppGroupStorage.swift */; };
+		AA0100642900000100000064 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200032900000100000003 /* Models.swift */; };
+		AA0100652900000100000065 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0200042900000100000004 /* UserAccount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0200012900000100000001 /* MakeTheMostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTheMostApp.swift; sourceTree = "<group>"; };
+		AA0200022900000100000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AA0200032900000100000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA0200042900000100000004 /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		AA0200052900000100000005 /* AppGroupStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupStorage.swift; sourceTree = "<group>"; };
+		AA0200062900000100000006 /* NeonAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonAPIClient.swift; sourceTree = "<group>"; };
+		AA0200072900000100000007 /* ScreenTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+		AA0200082900000100000008 /* SquatMotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatMotionDetector.swift; sourceTree = "<group>"; };
+		AA0200092900000100000009 /* AppSwapIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwapIntent.swift; sourceTree = "<group>"; };
+		AA0200102900000100000010 /* ShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsProvider.swift; sourceTree = "<group>"; };
+		AA0200112900000100000011 /* ChallengeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeEngine.swift; sourceTree = "<group>"; };
+		AA0200122900000100000012 /* NkjvScriptureLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NkjvScriptureLibrary.swift; sourceTree = "<group>"; };
+		AA0200132900000100000013 /* ProductivityQuoteLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityQuoteLibrary.swift; sourceTree = "<group>"; };
+		AA0200142900000100000014 /* ScheduleEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEvaluator.swift; sourceTree = "<group>"; };
+		AA0200152900000100000015 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AA0200162900000100000016 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA0200172900000100000017 /* ScheduleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
+		AA0200182900000100000018 /* RewardWindowBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardWindowBannerView.swift; sourceTree = "<group>"; };
+		AA0200192900000100000019 /* ScheduleEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEditView.swift; sourceTree = "<group>"; };
+		AA0200202900000100000020 /* FamilyActivityPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyActivityPickerView.swift; sourceTree = "<group>"; };
+		AA0200212900000100000021 /* BreakoutChallengeHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakoutChallengeHostView.swift; sourceTree = "<group>"; };
+		AA0200222900000100000022 /* SquatsChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatsChallengeView.swift; sourceTree = "<group>"; };
+		AA0200232900000100000023 /* ScriptureTypingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureTypingView.swift; sourceTree = "<group>"; };
+		AA0200242900000100000024 /* WisdomQuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomQuotesView.swift; sourceTree = "<group>"; };
+		AA0200252900000100000025 /* MathChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathChallengeView.swift; sourceTree = "<group>"; };
+		AA0200262900000100000026 /* ChallengeSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeSuccessView.swift; sourceTree = "<group>"; };
+		AA0200272900000100000027 /* AppSwapSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwapSettingsView.swift; sourceTree = "<group>"; };
+		AA0200282900000100000028 /* ShortcutsSetupGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsSetupGuideView.swift; sourceTree = "<group>"; };
+		AA0200292900000100000029 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		AA0200302900000100000030 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AA0200312900000100000031 /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
+		AA0200322900000100000032 /* AppGroupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupConstants.swift; sourceTree = "<group>"; };
+		AA0200332900000100000033 /* SharedShieldConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedShieldConfig.swift; sourceTree = "<group>"; };
+
+		AA0200402900000100000040 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		AA0200502900000100000050 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		AA0200602900000100000060 /* ShieldActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldActionExtension.swift; sourceTree = "<group>"; };
+
+		AA0200902900000100000090 /* MakeTheMost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeTheMost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0200912900000100000091 /* DeviceActivityMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceActivityMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0200922900000100000092 /* ShieldConfigurationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldConfigurationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0200932900000100000093 /* ShieldActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0300012900000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0300022900000100000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0300032900000100000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0300042900000100000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0400012900000100000001 = {
+			isa = PBXGroup;
+			children = (
+				AA0400022900000100000002 /* MakeTheMost */,
+				AA0400032900000100000003 /* Extensions */,
+				AA0400042900000100000004 /* Shared */,
+				AA0400052900000100000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0400022900000100000002 /* MakeTheMost */ = {
+			isa = PBXGroup;
+			children = (
+				AA0200012900000100000001 /* MakeTheMostApp.swift */,
+				AA0200022900000100000002 /* AppState.swift */,
+				AA0200032900000100000003 /* Models.swift */,
+				AA0200042900000100000004 /* UserAccount.swift */,
+				AA0200052900000100000005 /* AppGroupStorage.swift */,
+				AA0200062900000100000006 /* NeonAPIClient.swift */,
+				AA0200072900000100000007 /* ScreenTimeManager.swift */,
+				AA0200082900000100000008 /* SquatMotionDetector.swift */,
+				AA0200092900000100000009 /* AppSwapIntent.swift */,
+				AA0200102900000100000010 /* ShortcutsProvider.swift */,
+				AA0200112900000100000011 /* ChallengeEngine.swift */,
+				AA0200122900000100000012 /* NkjvScriptureLibrary.swift */,
+				AA0200132900000100000013 /* ProductivityQuoteLibrary.swift */,
+				AA0200142900000100000014 /* ScheduleEvaluator.swift */,
+				AA0200152900000100000015 /* Theme.swift */,
+				AA0200162900000100000016 /* DashboardView.swift */,
+				AA0200172900000100000017 /* ScheduleCardView.swift */,
+				AA0200182900000100000018 /* RewardWindowBannerView.swift */,
+				AA0200192900000100000019 /* ScheduleEditView.swift */,
+				AA0200202900000100000020 /* FamilyActivityPickerView.swift */,
+				AA0200212900000100000021 /* BreakoutChallengeHostView.swift */,
+				AA0200222900000100000022 /* SquatsChallengeView.swift */,
+				AA0200232900000100000023 /* ScriptureTypingView.swift */,
+				AA0200242900000100000024 /* WisdomQuotesView.swift */,
+				AA0200252900000100000025 /* MathChallengeView.swift */,
+				AA0200262900000100000026 /* ChallengeSuccessView.swift */,
+				AA0200272900000100000027 /* AppSwapSettingsView.swift */,
+				AA0200282900000100000028 /* ShortcutsSetupGuideView.swift */,
+				AA0200292900000100000029 /* AuthView.swift */,
+				AA0200302900000100000030 /* ProfileView.swift */,
+				AA0200312900000100000031 /* OnboardingFlowView.swift */,
+			);
+			path = MakeTheMost;
+			sourceTree = "<group>";
+		};
+		AA0400032900000100000003 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA0200402900000100000040 /* DeviceActivityMonitorExtension.swift */,
+				AA0200502900000100000050 /* ShieldConfigurationExtension.swift */,
+				AA0200602900000100000060 /* ShieldActionExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA0400042900000100000004 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AA0200322900000100000032 /* AppGroupConstants.swift */,
+				AA0200332900000100000033 /* SharedShieldConfig.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AA0400052900000100000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0200902900000100000090 /* MakeTheMost.app */,
+				AA0200912900000100000091 /* DeviceActivityMonitorExtension.appex */,
+				AA0200922900000100000092 /* ShieldConfigurationExtension.appex */,
+				AA0200932900000100000093 /* ShieldActionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0500012900000100000001 /* MakeTheMost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0600012900000100000001 /* Build configuration list for PBXNativeTarget "MakeTheMost" */;
+			buildPhases = (
+				AA0700012900000100000001 /* Sources */,
+				AA0300012900000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeTheMost;
+			productName = MakeTheMost;
+			productReference = AA0200902900000100000090 /* MakeTheMost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0500022900000100000002 /* DeviceActivityMonitorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0600022900000100000002 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitorExtension" */;
+			buildPhases = (
+				AA0700022900000100000002 /* Sources */,
+				AA0300022900000100000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceActivityMonitorExtension;
+			productName = DeviceActivityMonitorExtension;
+			productReference = AA0200912900000100000091 /* DeviceActivityMonitorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA0500032900000100000003 /* ShieldConfigurationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0600032900000100000003 /* Build configuration list for PBXNativeTarget "ShieldConfigurationExtension" */;
+			buildPhases = (
+				AA0700032900000100000003 /* Sources */,
+				AA0300032900000100000003 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldConfigurationExtension;
+			productName = ShieldConfigurationExtension;
+			productReference = AA0200922900000100000092 /* ShieldConfigurationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA0500042900000100000004 /* ShieldActionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0600042900000100000004 /* Build configuration list for PBXNativeTarget "ShieldActionExtension" */;
+			buildPhases = (
+				AA0700042900000100000004 /* Sources */,
+				AA0300042900000100000004 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldActionExtension;
+			productName = ShieldActionExtension;
+			productReference = AA0200932900000100000093 /* ShieldActionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0800012900000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AA0500012900000100000001 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AA0500022900000100000002 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AA0500032900000100000003 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AA0500042900000100000004 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AA0600002900000100000000 /* Build configuration list for PBXProject "MakeTheMost" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0400012900000100000001;
+			productRefGroup = AA0400052900000100000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0500012900000100000001 /* MakeTheMost */,
+				AA0500022900000100000002 /* DeviceActivityMonitorExtension */,
+				AA0500032900000100000003 /* ShieldConfigurationExtension */,
+				AA0500042900000100000004 /* ShieldActionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0700012900000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0100012900000100000001 /* MakeTheMostApp.swift in Sources */,
+				AA0100022900000100000002 /* AppState.swift in Sources */,
+				AA0100032900000100000003 /* Models.swift in Sources */,
+				AA0100042900000100000004 /* UserAccount.swift in Sources */,
+				AA0100052900000100000005 /* AppGroupStorage.swift in Sources */,
+				AA0100062900000100000006 /* NeonAPIClient.swift in Sources */,
+				AA0100072900000100000007 /* ScreenTimeManager.swift in Sources */,
+				AA0100082900000100000008 /* SquatMotionDetector.swift in Sources */,
+				AA0100092900000100000009 /* AppSwapIntent.swift in Sources */,
+				AA0100102900000100000010 /* ShortcutsProvider.swift in Sources */,
+				AA0100112900000100000011 /* ChallengeEngine.swift in Sources */,
+				AA0100122900000100000012 /* NkjvScriptureLibrary.swift in Sources */,
+				AA0100132900000100000013 /* ProductivityQuoteLibrary.swift in Sources */,
+				AA0100142900000100000014 /* ScheduleEvaluator.swift in Sources */,
+				AA0100152900000100000015 /* Theme.swift in Sources */,
+				AA0100162900000100000016 /* DashboardView.swift in Sources */,
+				AA0100172900000100000017 /* ScheduleCardView.swift in Sources */,
+				AA0100182900000100000018 /* RewardWindowBannerView.swift in Sources */,
+				AA0100192900000100000019 /* ScheduleEditView.swift in Sources */,
+				AA0100202900000100000020 /* FamilyActivityPickerView.swift in Sources */,
+				AA0100212900000100000021 /* BreakoutChallengeHostView.swift in Sources */,
+				AA0100222900000100000022 /* SquatsChallengeView.swift in Sources */,
+				AA0100232900000100000023 /* ScriptureTypingView.swift in Sources */,
+				AA0100242900000100000024 /* WisdomQuotesView.swift in Sources */,
+				AA0100252900000100000025 /* MathChallengeView.swift in Sources */,
+				AA0100262900000100000026 /* ChallengeSuccessView.swift in Sources */,
+				AA0100272900000100000027 /* AppSwapSettingsView.swift in Sources */,
+				AA0100282900000100000028 /* ShortcutsSetupGuideView.swift in Sources */,
+				AA0100292900000100000029 /* AuthView.swift in Sources */,
+				AA0100302900000100000030 /* ProfileView.swift in Sources */,
+				AA0100312900000100000031 /* OnboardingFlowView.swift in Sources */,
+				AA0100322900000100000032 /* AppGroupConstants.swift in Sources */,
+				AA0100332900000100000033 /* SharedShieldConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0700022900000100000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0100402900000100000040 /* DeviceActivityMonitorExtension.swift in Sources */,
+				AA0100412900000100000041 /* AppGroupConstants.swift in Sources */,
+				AA0100422900000100000042 /* AppGroupStorage.swift in Sources */,
+				AA0100432900000100000043 /* Models.swift in Sources */,
+				AA0100442900000100000044 /* UserAccount.swift in Sources */,
+				AA0100452900000100000045 /* SharedShieldConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0700032900000100000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0100502900000100000050 /* ShieldConfigurationExtension.swift in Sources */,
+				AA0100512900000100000051 /* AppGroupConstants.swift in Sources */,
+				AA0100522900000100000052 /* SharedShieldConfig.swift in Sources */,
+				AA0100532900000100000053 /* AppGroupStorage.swift in Sources */,
+				AA0100542900000100000054 /* Models.swift in Sources */,
+				AA0100552900000100000055 /* UserAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0700042900000100000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0100602900000100000060 /* ShieldActionExtension.swift in Sources */,
+				AA0100612900000100000061 /* AppGroupConstants.swift in Sources */,
+				AA0100622900000100000062 /* SharedShieldConfig.swift in Sources */,
+				AA0100632900000100000063 /* AppGroupStorage.swift in Sources */,
+				AA0100642900000100000064 /* Models.swift in Sources */,
+				AA0100652900000100000065 /* UserAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0900012900000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0900022900000100000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0900032900000100000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MakeTheMost/Resources/MakeTheMost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MakeTheMost/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0900042900000100000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MakeTheMost/Resources/MakeTheMost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MakeTheMost/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0900052900000100000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extensions/DeviceActivityMonitorExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app.DeviceActivityMonitorExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0900062900000100000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extensions/DeviceActivityMonitorExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app.DeviceActivityMonitorExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0900072900000100000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extensions/ShieldConfigurationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app.ShieldConfigurationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0900082900000100000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extensions/ShieldConfigurationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app.ShieldConfigurationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0900092900000100000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldActionExtension/ShieldActionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extensions/ShieldActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app.ShieldActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0900102900000100000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extensions/ShieldActionExtension/ShieldActionExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Extensions/ShieldActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makethemost.app.ShieldActionExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0600002900000100000000 /* Build configuration list for PBXProject "MakeTheMost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0900012900000100000001 /* Debug */,
+				AA0900022900000100000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0600012900000100000001 /* Build configuration list for PBXNativeTarget "MakeTheMost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0900032900000100000003 /* Debug */,
+				AA0900042900000100000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0600022900000100000002 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0900052900000100000005 /* Debug */,
+				AA0900062900000100000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0600032900000100000003 /* Build configuration list for PBXNativeTarget "ShieldConfigurationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0900072900000100000007 /* Debug */,
+				AA0900082900000100000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0600042900000100000004 /* Build configuration list for PBXNativeTarget "ShieldActionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0900092900000100000009 /* Debug */,
+				AA0900102900000100000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0800012900000100000001 /* Project object */;
+}

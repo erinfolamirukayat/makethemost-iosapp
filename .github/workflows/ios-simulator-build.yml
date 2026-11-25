@@ -1,0 +1,54 @@
+name: Build iOS Simulator App
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch: # Allows manual trigger button in GitHub UI
+
+jobs:
+  build-simulator:
+    name: Build for iOS Simulator & Appetize.io
+    runs-on: macos-14 # Apple Silicon M2 runner with Xcode 15/16
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app || true
+
+      - name: Print Xcode Version
+        run: xcodebuild -version
+
+      - name: Build iOS Simulator App
+        run: |
+          xcodebuild build \
+            -project ios/MakeTheMost.xcodeproj \
+            -scheme MakeTheMost \
+            -destination "generic/platform=iOS Simulator" \
+            -configuration Debug \
+            -derivedDataPath build \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Package Simulator App into ZIP
+        run: |
+          APP_PATH=$(find build/Build/Products/Debug-iphonesimulator -name "MakeTheMost.app" -type d | head -n 1)
+          if [ -z "$APP_PATH" ]; then
+            echo "Error: MakeTheMost.app not found in build directory!"
+            exit 1
+          fi
+          echo "Found app bundle at: $APP_PATH"
+          cd "$(dirname "$APP_PATH")"
+          zip -r -X "${GITHUB_WORKSPACE}/MakeTheMost-Simulator.app.zip" MakeTheMost.app
+          echo "Created MakeTheMost-Simulator.app.zip successfully"
+
+      - name: Upload Simulator App Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MakeTheMost-Simulator-App
+          path: MakeTheMost-Simulator.app.zip
+          retention-days: 14
