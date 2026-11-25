@@ -5,19 +5,19 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch: # Allows manual trigger button in GitHub UI
+  workflow_dispatch:
 
 jobs:
   build-simulator:
     name: Build for iOS Simulator & Appetize.io
-    runs-on: macos-14 # Apple Silicon M2 runner with Xcode 15/16
+    runs-on: macos-13 # Universally supported on all GitHub free accounts
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Select Xcode Version
-        run: sudo xcode-select -s /Applications/Xcode_15.4.app || true
+        run: sudo xcode-select -s /Applications/Xcode_15.2.app || sudo xcode-select -s /Applications/Xcode.app
 
       - name: Print Xcode Version
         run: xcodebuild -version
